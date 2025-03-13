@@ -202,11 +202,78 @@ nav ul li a {
     width: 50px;
     height: 54.36px;
 }
-
-
-
-
-
+/*************Main*********************/
 main {
     background: salmon;
+    margin-top: 56px;
+    width: 100%;
+    height: 100%;
+
+}
+.howPlay {
+    width: 1101px;
+    height: 1393px;
+    display: flex;
+    flex-direction: column;
+    background: springgreen;
+    margin: 0 100px;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    width: 654px;
+    height: 258;
+    background: skyblue;
+    margin: 0 223px 0 224px;
+}
+.section1 h2 {
+    font-family: "Roboto_Condensed-Bold";
+    font-size: 64px;
+    color: var(--color-1);
+    margin: 0 145px 41px 146px;
+}
+.section1 p {
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    text-align: center;
+}
+.card-container {
+    width: 1101px;
+    height: 1094px;
+    display: flex;
+    flex-direction: column;
+    background: slateblue;
+    margin-top: 41px;
+    gap: 83px;
+}
+.card {
+    width: 100%;
+    height: 187px;
+    display: flex;
+    flex-direction: row;
+    background: sandybrown;
+    gap: 32px;
+}
+.card-image {
+    width: 100px;
+    height: 100px;
+    background: var(--color-1);
+    border-radius: 50%;
+    position: absolute;
+    margin: 29px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}  
+.card-image p {
+    font-family: "Roboto_Condensed-Bold";
+    font-size: 64px;
+    color: var(--color-2);
+    margin: 12px 32px 13px 33px;
+}
+.card-text {
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    margin: 0 0 0 132px;
 }
