@@ -277,3 +277,24 @@ main {
     color: var(--color-1);
     margin: 0 0 0 132px;
 }
+.helpUs {
+    width: 1167px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    margin: 195px 100px;
+}
+.helpUs-container {
+    display: flex;
+    flex-direction: column;
+    width: 755px;
+    height: 338px;
+    background: slategray;
+}
+.helpUs-container h2 {
+    font-family: "Roboto_Condensed-Bold";
+    font-size: 72px;
+    color: var(--color-1);
+    margin-bottom: 83px;
+}
