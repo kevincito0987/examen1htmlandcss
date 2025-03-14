@@ -8,7 +8,7 @@
 
 body {
     background-color: var(--color-2);
-    font-family: "Roboto_Condensed-Regular", sans-serif;
+    font-family: "Roboto_Condensed-Regular";
     color: var(--color-1);
 }
 
@@ -30,9 +30,16 @@ header {
     flex-wrap: nowrap;
     gap: 30px;
     margin-top: 31px;
+    margin-right: 81px;
 }
 .letter {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter p {
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 48px;
 }
 
 .left {
@@ -46,7 +53,7 @@ header {
     width: 298px;
     height: 96px;
     gap: 5px;
-    margin-left: -60px;
+    margin-left: -20px;
 }
 
 .middle nav ul {
@@ -218,7 +225,6 @@ main {
     display: flex;
     flex-direction: row;
     max-width: 1099px;
-    border: 1px solid var(--color-1);
     border-radius: 1rem;
     color: var(--color-1);
     height: 187px;
@@ -404,7 +410,6 @@ main {
         flex-wrap: wrap;
         gap: 1.5rem;
     }
-
     .buttom {
         flex-direction: column;
         gap: 2rem;
@@ -466,20 +471,43 @@ main {
     .card-image p {
         font-size: 32px; /* Ajusta el tamaño de texto proporcionalmente */
     }
+    .div1 {
+        gap: 10px;
+    }
+    .div1 p {
+        font-size: 26px;
+        margin-left: 80px;
+    }
+    .div1 h2 {
+        font-size: 56.4px;
+        margin-left: 80px;
+    }
+    .buttom {
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    .aqua {
+        margin-top: -180px;
+    }
+    .button2 {
+        margin: 0 0 0 -220px;
+    }
 }
 @media screen and (max-width: 767px) {
     /* Header */
     .top {
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         padding: 1rem;
+
     }
 
     .left {
         width: 90%;
         margin: 0 auto;
         text-align: center;
+        margin-left: -20px;
     }
 
     .letter {
@@ -507,6 +535,7 @@ main {
         text-align: center;
         gap: 2rem;
         padding: 1rem;
+        margin-left: -20px;
     }
 
     .div1, .div2 {
@@ -559,6 +588,7 @@ main {
     .howPlay {
         padding: 1rem;
         margin: 1rem auto;
+        margin-top: -100px;
     }
 
     .section1 {
@@ -590,6 +620,7 @@ main {
         height: auto;
         gap: 1.5rem; /* Mantén el espacio general entre elementos */
         padding: 1rem;
+        margin-top: -100px;
     }
 
     .card-image {
@@ -608,11 +639,15 @@ main {
     .card-text1, .card-text2, .card-text3, .card-text4, .card-text5 {
         font-size: 13px; /* Tamaño del texto ajustado ligeramente */
         line-height: 1.4;
-        text-align: center;
         width: 90%;
-        margin-top: 30px;
+        margin-top: -20px;
         margin-left: 20px;
         margin-bottom: 0.5rem; /* Reduce espacio extra debajo del texto */
+    }
+    .card-image2 img{
+        margin-top: -300px;
+        width: 80px;
+        height: 80px;
     }
 
     /* Sección - Ayúdanos */
@@ -622,6 +657,7 @@ main {
         gap: 2rem;
         margin: 2rem auto;
         margin-left: 20px;
+        margin-top: -60px;
     }
 
     .helpUs-container {
@@ -652,9 +688,9 @@ main {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        gap: 1rem; /* Reduce el espacio entre los bloques */
         padding: 1rem;
         margin-left: 10px;
+        margin-top: -40px;
     }
 
     .description {
@@ -675,19 +711,17 @@ main {
     }
 
     .aqua {
-        width: 100%;
-        margin: 1rem auto;
-        align-items: center;
-        margin-left: -45px;
-        margin-top: -200px;
+        width: 100%;    
+        margin-left: -25px;
+        margin-top: -300px;
     }
 
     .button2 {
-        width: 80%;
-        margin: 1rem auto 0 auto; /* Compacta espacio alrededor del botón */
+        width: 100%;
+        margin:  0 0 0 -220px; /* Compacta espacio alrededor del botón */
     }
 
     .button2 p {
-        font-size: 20px; /* Ajusta el tamaño del texto del botón */
+        font-size: 96px; /* Ajusta el tamaño del texto del botón */
     }
 }
