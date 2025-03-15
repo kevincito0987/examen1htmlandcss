@@ -7,9 +7,8 @@
 }
 
 body {
-    background-color: var(--color-2);
+    background-color: var(--color-1);
     font-family: "Roboto_Condensed-Regular";
-    color: var(--color-1);
 }
 
 /* Header */
@@ -47,8 +46,8 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background: var(--color-1);
-    color: var(--color-2);
+    background: var(--color-2);
+    color: var(--color-1);
     border-radius: 1.5rem;
     width: 298px;
     height: 96px;
@@ -67,7 +66,7 @@ ul li a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    color: var(--color-1);
+    color: var(--color-2);
 }
 
 .right {
@@ -91,12 +90,12 @@ ul li a {
     margin: 1rem 0;
 }
 .line-1 {
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     width: 10%;
     height: 1px;
 }
 .line-2 {
-    background-color: var(--color-3);
+    background-color: var(--color-4);
     width: 90%;
     height: 1px;
 }
@@ -121,7 +120,7 @@ ul li a {
 
 .div1 h2 {
     font-size: 56.4px;
-    color: var(--color-1);
+    color: var(--color-5);
     font-family: "Roboto_Condensed-Regular";
     width: 90%;
     margin-top: 10px;
@@ -140,7 +139,7 @@ ul li a {
 }
 
 .div1 p {
-    color: var(--color-1);
+    color: var(--color-5);
     font-family: "Roboto_Condensed-Regular";
     font-size: 20px;
     margin-top: 13px;
@@ -152,7 +151,7 @@ ul li a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: var(--color-1);
+    background: var(--color-2);
     border-radius: 1.5rem;
     margin: 560px 0 0 -420px;
     width: 263px;
@@ -162,7 +161,7 @@ ul li a {
 .buy p {
     font-family: "Roboto_Condensed-Bold";
     font-size: 40px;
-    color: var(--color-2);
+    color: var(--color-1);
     width: 145px;
     height: 48px;
 }
@@ -210,7 +209,7 @@ main {
 .section1 h2 {
     margin-bottom: 41px;
     font-size: 64px;
-    color: var(--color-1);
+    color: var(--color-5);
     font-family: "Roboto_Condensed-Bold";
 }
 
@@ -218,7 +217,7 @@ main {
     margin-bottom: 41px;
     text-align: center;
     font-size: 36px;
-    color: var(--color-1);
+    color: var(--color-5);
     font-family: "Roboto_Condensed-Regular";
     width: 654px;
     height: 146px;
@@ -241,7 +240,6 @@ main {
     flex-direction: row;
     max-width: 1099px;
     border-radius: 1rem;
-    color: var(--color-1);
     height: 187px;
     gap: 20px;
     align-items: center;
@@ -250,14 +248,14 @@ main {
 .card-text1 {
     font-family: "Roboto_Condensed-Regular";
     font-size: 28px;
-    color: var(--color-1);
+    color: var(--color-2);
     width: 752px;
     height: 187px;
 }
 .card-text2 {
     font-family: "Roboto_Condensed-Regular";
     font-size: 28px;
-    color: var(--color-1);
+    color: var(--color-2);
     width: 768px;
     height: 143px;
     margin-top: 20px;
@@ -265,7 +263,7 @@ main {
 .card-text3 {
     font-family: "Roboto_Condensed-Regular";
     font-size: 28px;
-    color: var(--color-1);
+    color: var(--color-2);
     width: 750px;
     height: 178px;
     margin-top: 20px;
@@ -273,7 +271,7 @@ main {
 .card-text4 {
     font-family: "Roboto_Condensed-Regular";
     font-size: 28px;
-    color: var(--color-1);
+    color: var(--color-2);
     width: 733px;
     height: 214px;
     margin: 20px 20px 0 20px;
@@ -281,20 +279,10 @@ main {
 .card-text5 {
     font-family: "Roboto_Condensed-Regular";
     font-size: 28px;
-    color: var(--color-1);
+    color: var(--color-2);
     width: 750px;
     height: 178px;
     margin-top: 50px;
-}
-.card-image {
-    width: 100px;
-    height: 100px;
-}
-
-.card-image p {
-    font-family: "Roboto_Condensed-Bold";
-    font-size: 64px;
-    color: var(--color-2);
 }
 
 /* Help Us Section */
@@ -317,14 +305,14 @@ main {
 .helpUs-container h2 {
     font-family: "Roboto_Condensed-Bold";
     font-size: 72px;
-    color: var(--color-1);
+    color: var(--color-2);
     margin-bottom: 20px;
 }
 
 .helpUs-container p {
     font-family: "Roboto_Condensed-Regular";
     font-size: 36px;
-    color: var(--color-1);
+    color: var(--color-2);
     max-width: 751px;
     max-height: 184px;
 }
@@ -349,7 +337,7 @@ main {
     max-width: 250px;
     height: auto;
     display: flex;
-    background: var(--color-1);
+    background: var(--color-2);
     border-radius: 32.5px;
     align-items: center;
     justify-content: center;
@@ -361,7 +349,7 @@ main {
 .boton p {
     font-family: "Roboto_Condensed-Bold";
     font-size: 18px;
-    color: var(--color-2);
+    color: var(--color-1);
     margin: 0;
 }
 
@@ -387,13 +375,13 @@ main {
 .description h2 {
     font-family: "Roboto_Condensed-Bold";
     font-size: 72px;
-    color: var(--color-1);
+    color: var(--color-2);
     margin-bottom: 69px;
 }
 .description p {
     font-family: "Roboto_Condensed-Regular";
     font-size: 34.5px;
-    color: var(--color-1);
+    color: var(--color-2);
 }
 .aboutUs {
     height: 592px;
@@ -416,7 +404,7 @@ main {
 .button2 p {
     font-family: "Roboto_Condensed-Regular";
     font-size: 96px;
-    color: var(--color-1);
+    color: var(--color-2);
     margin-left: 300px;
 }
 @media screen and (min-width: 1025px) {
@@ -439,7 +427,7 @@ main {
     .description p {
         font-family: "Roboto_Condensed-Regular";
         font-size: 28.6px;
-        color: var(--color-1);
+        color: var(--color-2);
     }
 }
 @media screen and (min-width: 1281px) {
@@ -462,7 +450,7 @@ main {
     .description p {
         font-family: "Roboto_Condensed-Regular";
         font-size: 34.5px;
-        color: var(--color-1);
+        color: var(--color-2);
     }
 }
 
@@ -523,7 +511,7 @@ main {
 .card-image {
     width: 100px;
     height: 100px;
-    background: var(--color-1);
+    background: var(--color-2);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -534,7 +522,7 @@ main {
 .card-image p {
     font-family: "Roboto_Condensed-Bold";
     font-size: 64px;
-    color: var(--color-2);
+    color: var(--color-1);
 }
 
 /* Responsive para Tabletas (50x50) */
